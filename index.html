@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>Alex Matchneer (machty)</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+
+  <style type="text/css">
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+    body {
+      line-height: 1;
+    }
+    ol, ul {
+      list-style: none;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+    body {
+      font-family: 'Crimson Text', serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    #header {
+      width: 250px;
+      margin: 0 auto;
+      position: relative;
+      height: 122px;
+      border-bottom: 1px solid black;
+    }
+
+    #header h1, #header h2 {
+      position: absolute;
+      text-align: right;
+
+      right: 50%;
+      margin-right: 70px;
+    }
+
+    #header h1 {
+      top: 17px;
+      white-space: nowrap;
+      font-size: 48px;
+    }
+
+    #header h2 {
+      top: 64px;
+      font-size: 32px;
+    }
+
+    #header h2 {
+      position: absolute;
+      text-align: right;
+
+      right: 50%;
+      margin-right: 70px;
+    }
+
+    #header h1.reverse, #header h2.reverse {
+      right: auto;
+      left: 50%;
+      text-align: left;
+      margin-right: 0;
+      margin-left: 70px;
+    }
+
+    img#machty-gif {
+      position: absolute;
+      left: 50%;
+      top: 10px;
+      margin-left: -50px;
+      border-radius: 50px;
+
+      -webkit-transition: all 60s;
+      -moz-transition: all 60s;
+      transition: all 60s;
+    }
+
+    img#machty-gif:hover {
+      -webkit-transform: rotate(1440deg);
+      -moz-transform: rotate(1440deg);
+      transform: rotate(1440deg);
+    }
+
+    .container {
+      margin: 0 auto;
+      width: 550px;
+    }
+
+    .container h1 {
+      font-size: 40px;
+      text-align: center;
+      margin: 50px 0;
+    }
+
+    .container p {
+      text-align: left;
+      text-align: justify;
+      font-size: 28px;
+      line-height: 1.2em;
+    }
+
+    p#links {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    a {
+      color: #8F1010;
+    }
+    
+  </style>
+</head>
+<body>
+  <div id="header">
+    <img id="machty-gif" src="machty_12.gif" alt="machty" />
+
+    <h1>Alex Matchneer</h1>
+    <h2>(machty)</h2>
+
+    <h1 class="reverse">reenhctaM xelA</h1>
+    <h2 class="reverse">(ythcam)</h2>
+  </div>
+
+  <div class="container">
+
+    <h1>Hello.</h1>
+
+    <p>
+      I make JavaScript get up and dance. I’m a 
+      member of the <a href="http://emberjs.com/">Ember.js</a> 
+      core team, creator of <a href="http://emblemjs.com">Emblem.js</a>, 
+      co-producer of <a href="http://embercasts.com">Embercasts.com</a>, 
+      I’m available for Ember.js consulting. 
+      I live and work out of NYC.
+    </p>
+
+    <p id="links">
+      <a href="mailto:machty@gmail.com">E-mail</a> |
+      <a href="http://www.twitter.com/machty">Twitter</a> |
+      <a href="http://www.github.com/machty">GitHub</a>
+    </p>
+  </div>
+</body>
+</html>
