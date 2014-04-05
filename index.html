@@ -32,11 +32,11 @@
     footer, header, hgroup, menu, nav, section {
       display: block;
     }
+    ol, li {
+      list-style-type: none;
+    }
     body {
       line-height: 1;
-    }
-    ol, ul {
-      list-style: none;
     }
     blockquote, q {
       quotes: none;
@@ -127,11 +127,19 @@
       margin: 50px 0;
     }
 
-    .container p {
+    .container p, .container ul {
       text-align: left;
-      text-align: justify;
       font-size: 28px;
       line-height: 1.2em;
+    }
+
+    .container ul {
+      text-align: center;
+    }
+    
+    .container ul li {
+
+      margin-bottom: 10px;
     }
 
     p#links {
@@ -158,16 +166,28 @@
 
   <div class="container">
 
-    <h1>Hello.</h1>
+    <h1>About me:</h1>
 
-    <p>
-      I make JavaScript get up and dance. I’m a 
-      member of the <a href="http://emberjs.com/">Ember.js</a> 
-      core team, creator of <a href="http://emblemjs.com">Emblem.js</a>, 
-      co-producer of <a href="http://embercasts.com">Embercasts.com</a>, 
-      and I’m available for Ember.js consulting. 
-      I live and work out of NYC.
-    </p>
+    <ul>
+      <li>
+        Developer at <a href="http://expresscheckoutapp.com/">Express Checkout</a>
+      </li>
+      <li>
+        <a href="http://emberjs.com/">Ember.js</a> Core Team member
+      </li>
+      <li>
+        Ember Instructor at <a href="http://prototypal.io/">Prototypal</a>
+      </li>
+      <li>
+        Created <a href="http://emblemjs.com">Emblem.js</a>
+      </li>
+      <li>
+        Co-producer of <a href="http://embercasts.com">Embercasts.com</a>
+      </li>
+      <li>
+        Live and work out of NYC
+      </li>
+    </ul>
 
     <p id="links">
       <a href="mailto:machty@gmail.com">E-mail</a> |
